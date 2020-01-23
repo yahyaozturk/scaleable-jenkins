@@ -1,4 +1,5 @@
 This repo has two diffent apporach to build highly scalable Jenkins based CI/CD solution
+
 First approach is on AWS and EC2 based
     Packer: to bake golden images for Jenkins Master and Jenkins Slaves
     Terraform: to provision required infra on AWS automatically
