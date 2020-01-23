@@ -12,10 +12,6 @@ variable "aws_profile" {
   description = "AWS profile"
 }
 
-variable "bastion_sg_id" {
-  description = "Bastion security group ID"
-}
-
 variable "jenkins_username" {
   description = "Jenkins username"
 }
@@ -83,11 +79,4 @@ variable "min_jenkins_slaves" {
 variable "max_jenkins_slaves" {
   description = "Max slaves"
   default     = "5"
-}
-
-// Nexus
-
-variable "nexus_instance_type" {
-  description = "Nexus instance type"
-  default     = "t2.xlarge"
 }
